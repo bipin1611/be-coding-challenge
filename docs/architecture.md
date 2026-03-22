@@ -32,9 +32,9 @@ On the other hand, `hashing` is a one-way function, which means that it cannot b
 
 However, if we explicitly want to use the password for login into external system, than i would suggest to use different techniques,
 such as: 
-   - SSO (Single Sign-On) method, for that we will `expose API endpoint to login to external system using the JWT token`.
-   - Or, we can use `OAuth` for secure authentication, which will allow users to authenticate using their existing credentials from other services (e.g., Google, Facebook) without sharing their passwords with our application.
-   - Even better, we can use `passkeys` for passwordless authentication, which is more secure and user-friendly.
+   - **SSO (Single Sign-On)** method, for that we will `expose API endpoint to login to external system using the JWT token`.
+   - Or, we can use **OAuth** for secure authentication, which will allow users to authenticate using their existing credentials from other services (e.g., Google, Facebook) without sharing their passwords with our application.
+   - Even better, we can use **passkeys** for passwordless authentication, which is more secure and user-friendly.
 
 ## Security Considerations
 - Passwords are hashed using `PBKDF2-HMAC-SHA256` with a random salt and 260,000 iterations before storing in the database.
