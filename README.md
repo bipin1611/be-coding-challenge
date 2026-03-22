@@ -88,6 +88,7 @@ repo/
 │   └── services/        # Business logic
 ├── tests/               # Pytest test suite
 ├── migrations/          # Database migrations
+├── logs/                # Application logs
 ├── docs/
 │   └── architecture.md  # Architecture overview
 ├── docker-compose.yml
